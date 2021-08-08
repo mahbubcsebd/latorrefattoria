@@ -1,4 +1,11 @@
-// scroll to top
 $(document).ready(function () {
-    $('.photo-click').magnificPopup({type:'image'});
+    //magnific popup
+    $('.photo-click').magnificPopup({
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
+    // scroll to top
+    $('body').materialScrollTop();
 });
