@@ -15,6 +15,26 @@ body {
   clear: both;
 }
 
+.m-t-20 {
+  margin-top: 20px;
+}
+
+.m-y-10 {
+  margin: 10px 0;
+}
+
+.p-b-0 {
+  padding-bottom: 0 !important;
+}
+
+.p-b-10 {
+  padding-bottom: 10px !important;
+}
+
+.m-b-10 {
+  margin-bottom: 10px;
+}
+
 .py-150 {
   padding: 150px 0;
 }
@@ -35,6 +55,13 @@ h3,
 h3 a,
 .heading-text {
   font-family: Georgia, "Times New Roman", Times, serif !important;
+}
+
+.page-bg-parallax {
+  background-attachment: fixed;
+  padding-top: 170px;
+  height: 460px;
+  padding-bottom: 180px;
 }
 
 .heading-text {
@@ -202,11 +229,6 @@ p.lead {
   font-weight: 800 !important;
 }
 
-.bg-parallax {
-  background-attachment: fixed;
-}
-
-
 /* Header Bannar */
 .banner-right {}
 
@@ -219,6 +241,7 @@ p.lead {
   color: #fff;
   font-size: 28px;
   margin: 25px 0;
+  line-height: 35px;
 }
 
 .banner-right a {}
@@ -352,7 +375,7 @@ p.lead {
   margin-top: 10px !important;
   padding-top: 10px !important;
   width: 100% !important;
-  border-top: 1px solid #eee !important;
+  border-top: 1px solid #ccc !important;
 }
 
 .product .product-price ins {
@@ -705,4 +728,96 @@ button:focus {
 .material-scrolltop.reveal i {
   font-size: 40px;
   color: #fff !important;
+}
+
+
+
+/*******************************/
+/*       Product Page          */
+/*******************************/
+.page-title {
+  display: block;
+}
+
+.breadcrumb {
+  background-color: unset;
+}
+
+.breadcrumb a,
+.breadcrumb a:active,
+.breadcrumb a:hover {
+  color: #fff;
+}
+
+
+.product-price,
+.product-price ins {
+  color: #4E1B27 !important;
+}
+
+.seperator,
+.separator {
+  color: #ccc;
+  width: 100%;
+  margin: 30px auto;
+  overflow: hidden;
+  text-align: center;
+  line-height: 1.2em;
+}
+
+.product-page:not(.widget-shop) .product-title h3 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.sidebar .widget-title::after {
+  border-top: 4px solid #444;
+  content: "";
+  display: block;
+  margin-top: 14px;
+  width: 60px;
+}
+
+.widget-archive ul {
+  padding-left: 0px;
+}
+
+.list-lines li {
+  border-bottom: 1px solid #eee;
+  line-height: 45px;
+}
+
+.list-lines li a {
+  color: #777 !important;
+}
+
+.list-lines li a:hover {
+  color: #4E1B27 !important;
+}
+
+.post-content p {
+  color: #696f6f !important;
+  word-spacing: 2px;
+}
+
+/*******************************/
+/*       Winebar Page          */
+/*******************************/
+.orario {
+  padding: 30px !important;
+  margin-top: 20px;
+  border: 3px solid #000 !important;
+  font-family: Georgia, "Times New Roman", Times, serif !important;
+}
+
+.orario i {
+  display: block !important;
+  font-size: 3.5em;
+  margin-bottom: 15px !important;
+}
+
+.orario strong {
+  margin-bottom: 10px;
+  display: inline-block;
 }
